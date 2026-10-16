@@ -30,6 +30,7 @@ section { flex: 1; min-width: 0; padding-bottom: 50px; }
   border: 1px solid #267cb9;
   border-radius: 5px;
   text-align: center;
+  font-size: 15px;
   font-weight: 700;
   color: #267cb9;
 }
