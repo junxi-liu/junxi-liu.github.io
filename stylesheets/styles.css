@@ -1,0 +1,55 @@
+/* Two-column layout after the GitHub Pages "Minimal" theme */
+body {
+  margin: 0;
+  padding: 50px;
+  background: #fff;
+  font: 15px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #595959;
+}
+h1, h2, h3 { color: #222; margin: 0 0 16px; font-weight: 400; line-height: 1.2; }
+h1 { font-size: 30px; }
+h2 { font-size: 22px; margin-top: 36px; }
+b { color: #222; }
+p, ul { margin: 0 0 16px; }
+ul { padding-left: 20px; }
+li { margin-bottom: 8px; }
+a { color: #267cb9; text-decoration: none; }
+a:hover { color: #069; text-decoration: underline; }
+
+.wrapper { max-width: 960px; margin: 0 auto; }
+header { width: 270px; float: left; position: fixed; }
+header img { display: block; width: 270px; height: 270px; object-fit: cover; margin-bottom: 20px; }
+section { width: 600px; float: right; padding-bottom: 50px; }
+
+.buttons { list-style: none; padding: 0; margin: 24px 0 0; }
+.buttons li { margin-bottom: 10px; }
+.buttons a {
+  display: block;
+  padding: 10px 0;
+  border: 1px solid #267cb9;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: 700;
+  color: #267cb9;
+}
+.buttons a:hover { background: #267cb9; color: #fff; text-decoration: none; }
+
+.market {
+  font-size: 18px;
+  font-weight: 700;
+  color: #222;
+  border-left: 4px solid #267cb9;
+  padding-left: 12px;
+}
+.paper { font-size: 17px; margin-bottom: 8px; }
+.abstract { text-align: justify; }
+
+@media (max-width: 960px) {
+  body { padding: 24px 16px; }
+  .wrapper { max-width: 640px; }
+  header, section { width: auto; float: none; position: static; }
+  header img { width: 180px; height: 180px; }
+  .buttons { display: flex; gap: 10px; }
+  .buttons li { flex: 1; }
+  .abstract { text-align: left; }
+}
