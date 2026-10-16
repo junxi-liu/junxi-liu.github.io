@@ -5,6 +5,7 @@ body {
   background: #fff;
   font: 16px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #595959;
+  text-align: justify;
 }
 h1, h2, h3 { color: #222; margin: 0 0 16px; font-weight: 400; line-height: 1.2; }
 h1 { font-size: 36px; margin-top: 4px; }
@@ -20,7 +21,7 @@ a:hover { color: #069; text-decoration: underline; }
 header { flex: 0 0 270px; }
 header img { display: block; width: 270px; height: 270px; object-fit: cover; margin-bottom: 20px; }
 section { flex: 1; min-width: 0; padding-bottom: 50px; }
-.degrees { font-size: 15px; line-height: 1.5; }
+.degrees { font-size: 15px; line-height: 1.5; text-align: left; }
 
 .buttons { list-style: none; padding: 0; margin: 24px 0 0; }
 .buttons li { margin-bottom: 10px; }
@@ -49,5 +50,4 @@ section { flex: 1; min-width: 0; padding-bottom: 50px; }
   header img { width: 180px; height: 180px; }
   .buttons { display: flex; gap: 10px; }
   .buttons li { flex: 1; }
-  .abstract { text-align: left; }
 }
