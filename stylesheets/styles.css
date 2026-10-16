@@ -41,7 +41,8 @@ section { flex: 1; min-width: 0; padding-bottom: 50px; }
 @media (max-width: 960px) {
   body { padding: 24px 16px; }
   .wrapper { max-width: 640px; flex-direction: column; gap: 0; }
-  header { flex: none; }
+  header, section { display: contents; }
+  section h1 { order: -1; }
   header img { width: 180px; height: 180px; }
   .buttons { display: flex; gap: 10px; }
   .buttons li { flex: 1; }
