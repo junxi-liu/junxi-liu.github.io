@@ -37,10 +37,8 @@ section { flex: 1; min-width: 0; padding-bottom: 50px; }
 }
 .buttons a:hover { background: #267cb9; color: #fff; text-decoration: none; }
 
-.paper { font-size: 18px; margin-bottom: 8px; }
-.papers li { font-size: 18px; }
-.papers .status { font-size: 16px; }
-.abstract { text-align: justify; }
+.paper { margin-bottom: 8px; }
+.abstract { font-size: 15px; }
 
 @media (max-width: 960px) {
   body { padding: 24px 16px; }
