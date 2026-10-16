@@ -3,12 +3,12 @@ body {
   margin: 0;
   padding: 50px;
   background: #fff;
-  font: 15px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font: 17px/1.6 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #595959;
 }
 h1, h2, h3 { color: #222; margin: 0 0 16px; font-weight: 400; line-height: 1.2; }
-h1 { font-size: 30px; }
-h2 { font-size: 22px; margin-top: 36px; }
+h1 { font-size: 32px; }
+h2 { font-size: 24px; margin-top: 36px; }
 b { color: #222; }
 p, ul { margin: 0 0 16px; }
 ul { padding-left: 20px; }
@@ -20,7 +20,7 @@ a:hover { color: #069; text-decoration: underline; }
 header { flex: 0 0 270px; }
 header img { display: block; width: 270px; height: 270px; object-fit: cover; margin-bottom: 20px; }
 section { flex: 1; min-width: 0; padding-bottom: 50px; }
-.degrees { font-size: 13px; line-height: 1.5; }
+.degrees { font-size: 15px; line-height: 1.5; }
 
 .buttons { list-style: none; padding: 0; margin: 24px 0 0; }
 .buttons li { margin-bottom: 10px; }
@@ -35,7 +35,7 @@ section { flex: 1; min-width: 0; padding-bottom: 50px; }
 }
 .buttons a:hover { background: #267cb9; color: #fff; text-decoration: none; }
 
-.paper { font-size: 17px; margin-bottom: 8px; }
+.paper { font-size: 19px; margin-bottom: 8px; }
 .abstract { text-align: justify; }
 
 @media (max-width: 960px) {
