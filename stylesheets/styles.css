@@ -7,7 +7,7 @@ body {
   color: #595959;
 }
 h1, h2, h3 { color: #222; margin: 0 0 16px; font-weight: 400; line-height: 1.2; }
-h1 { font-size: 32px; }
+h1 { font-size: 36px; margin-top: 4px; }
 h2 { font-size: 24px; margin-top: 36px; }
 b { color: #222; }
 p, ul { margin: 0 0 16px; }
