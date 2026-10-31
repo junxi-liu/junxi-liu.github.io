@@ -39,6 +39,13 @@ section { flex: 1; min-width: 0; padding-bottom: 50px; }
 
 .paper { margin-bottom: 8px; }
 .abstract { font-size: 15px; }
+.paper-abstract { margin-top: 4px; }
+.paper-abstract summary { display: inline-block; list-style: none; color: #267cb9; cursor: pointer; }
+.paper-abstract summary::-webkit-details-marker { display: none; }
+.paper-abstract summary:hover { color: #069; text-decoration: underline; }
+.paper-abstract summary:focus-visible { outline: 2px solid #267cb9; outline-offset: 3px; }
+.paper-abstract[open] summary { margin-bottom: 8px; }
+.paper-abstract .abstract { margin-bottom: 16px; }
 
 @media (max-width: 960px) {
   body { padding: 24px 16px; }
